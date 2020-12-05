@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // use JWT auth to secure the api
-app.use(express.static(__dirname + '/dist/app-name')); 
+app.use(express.static(__dirname + '/dist/user-managem-master-010fjfm6kl')); 
 app.use(jwt());
 
 // api routes
